@@ -1,0 +1,19 @@
+.die{
+    height: 48px;
+    width: 48px;
+    border-radius: 6px;
+
+    box-shadow: 0px 2px 2px 0px #00000026;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    user-select: none;
+    cursor: pointer;
+}
+
+.die--value{
+    font-size: 2rem;
+    font-weight: bolder;
+}

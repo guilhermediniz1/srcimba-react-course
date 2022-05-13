@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+
+    background-color: #282D35;
+
+    overflow: hidden;
+
+    /* background-image: url(./images/react-icon-large.png);
+    background-repeat: no-repeat;
+    background-position: right 75%; 
+    Poderia posicionar a imagem assim usando essas propriedades
+    */
+}
+
+nav{
+    width: 100vw;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #21222A;
+
+    padding: 16px;
+}
+.logo{
+    width: 32px;
+    margin-right: 8px;
+}
+nav > span{
+    display: flex;
+    align-items: center;
+}
+
+h1, li{
+    color: #FFF;
+}
+h3{
+    color: #61DAFB;
+    font-size: 1.6rem;
+}
+h4{
+    color: #DEEBF8;
+    
+}
+
+.main-content{
+    padding: 32px;
+}
+
+li::marker{
+    color: #61DAFB;
+    font-size: 1.4rem;
+}
+
+.logo-bg{
+    width: 250px;
+    position: absolute;
+    right: -125px;
+    top: calc(50vh - 125px);
+}

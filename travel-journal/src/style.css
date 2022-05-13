@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Inter, sans-serif;
+}
+.container{
+    background-color: #FFF;
+    width: 550px;
+    height: 700px;
+    border-radius: 8px;
+    margin: 32px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgb(0, 0, 0, 0.15);
+}
+
+/*Nav Styles*/
+nav{
+    height: 55px;
+    background-color: #F55A5A;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+.nav--text{
+    font-size: 14px;
+    font-weight: 500;
+}
+.nav--logo{
+    width: 24px;
+}
+
+/*Location Styles*/
+.location-list{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 40px;
+
+}
+hr{
+    width: 100%;
+    border: 2px solid #F5F5F5;
+}
+.location{
+    display: flex;
+    gap: 20px;
+}
+.location--info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 9px;
+}
+.location--info > span{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+.location--country{
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.17em;
+}
+.location--country > i{
+    color: #F55A5A;
+}
+
+.location--link{
+    color: #918E9B;
+    font-size: 10px;
+}
+
+.location--name{
+    font-size: 25px;
+}
+
+.location--dates, .location--description{
+    font-size: 10px;
+}
+
+.location--image{
+    object-fit: cover;
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
